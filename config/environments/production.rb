@@ -46,8 +46,4 @@ WhoopsServer::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
-
-  # Do not compress assets
-  config.assets.compress = false
-
 end
