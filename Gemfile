@@ -7,3 +7,8 @@ group :assets do
   gem 'sass-rails'
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'capistrano'
+gem 'capistrano-ext'
+gem 'airbrake'
+gem 'bson_ext'
