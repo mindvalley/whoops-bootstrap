@@ -7,7 +7,7 @@ load "config/recipes/base"
 
 set :rvm_ruby_string, ENV['GEM_HOME'].gsub(/.*\//,"")
 set :application, "WhoopsServer"
-set :server_name, 'whoops.mindvalley.net'
+set :server_name, 'whoops.mindvalley.com'
 set :repository,  "git@github.com:mindvalley/whoops-bootstrap.git"
 set :user, "mvdev"
 set :deploy_to, "/home/#{user}/apps/#{application}"
