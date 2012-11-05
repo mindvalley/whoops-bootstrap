@@ -7,7 +7,6 @@ group :assets do
   gem 'sass-rails'
   gem 'uglifier', '>= 1.0.3'
   gem 'therubyracer'
-  gem 'jquery-rails'
 end
 
 gem 'capistrano'
